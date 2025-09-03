@@ -15,7 +15,7 @@ import nltk #   nltk is this huge libary still very lightweight compared to othe
 nltk.download('vader_lexicon')
 #vadar lexicon is just a predefined dictionary of words INSIDE THE LIBARY NLTK- where each word in the "lexicon" has a sentiment score from -4 to 4 - understand vadar is kinda outdated now in the sense its more simple and a more limted trasfomrer (but it's not really a tranformer its too basic)
 #RoBERTa/BERT is advanced tranfromer based modelling : Can handle subtle context, negation, sarcasm, and long text.
-#Hugging Face is a platfrom / libary that hosts thousands of pretrained tranfromer models BERT, RoBERTA, GPT_ makes it easy to download and use start if gthe art NLP models Its somewhat free but for large scale that use GPU (for parallelism + speed + memory bandwidth) its paid
+#Hugging Face is a platfrom / libary that hosts thousands of pretrained tranfromer models BERT, RoBERTA, GPT_ makes it easy to download and use start if gthe art NLP models Its somewhat free but for large scale that use GPU (for parallelism + speed + memory bandwidth)
 
 
 # loading the CSV file
